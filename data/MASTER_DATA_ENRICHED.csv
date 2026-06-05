@@ -1,1 +1,6 @@
-
+issuer_name,ticker,institution_name,shares_amount,market_value,conviction_score,sector,filing_date
+Apple Inc,AAPL,Vanguard,1200000,250000000,92,Technology,2025-01-10
+Microsoft Corp,MSFT,BlackRock,950000,210000000,88,Technology,2025-01-15
+Nvidia Corp,NVDA,Fidelity,850000,195000000,95,Technology,2025-02-01
+Amazon Inc,AMZN,State Street,700000,145000000,81,Consumer,2025-02-18
+Tesla Inc,TSLA,Vanguard,650000,120000000,74,Automobile,2025-03-05
