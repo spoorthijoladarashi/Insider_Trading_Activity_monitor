@@ -1,1 +1,6 @@
-
+ticker,company_name,signal_score,signal_type
+NVDA,Nvidia Corp,95,Bullish
+AAPL,Apple Inc,92,Bullish
+MSFT,Microsoft Corp,89,Bullish
+TSLA,Tesla Inc,63,Neutral
+NFLX,Netflix Inc,55,Neutral
