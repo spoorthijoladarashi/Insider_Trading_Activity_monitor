@@ -1,19 +1,39 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Smart Money Analytics",
+    page_title="Smart Money Analytics Dashboard",
     page_icon="📈",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
-st.title("📊 Smart Money Surveillance Dashboard")
+st.markdown("""
+<style>
+.metric-container{
+    background-color:#1e293b;
+    padding:15px;
+    border-radius:12px;
+    text-align:center;
+}
+</style>
+""", unsafe_allow_html=True)
+
+st.title("📊 Smart Money Analytics Dashboard")
 
 st.markdown("""
-Analyze institutional holdings,
-insider trading activities,
-and smart money movements.
+### Institutional Holdings & Insider Trading Intelligence
+
+Analyze:
+
+✅ SEC 13F Holdings
+
+✅ Insider Transactions
+
+✅ Conviction Scores
+
+✅ Smart Money Signals
+
+✅ AI Generated Insights
 """)
 
-st.image("assets/logo.png", width=200)
-
-st.success("Select a dashboard page from the sidebar.")
+st.info("Select dashboard pages from sidebar.")
